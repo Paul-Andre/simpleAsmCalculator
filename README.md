@@ -11,7 +11,7 @@ ld -o calculator calculator.o
 For x64 linux, it should be something like the following, though I haven't tested it yet:
 ```bash
 nasm -felf32 calculator.asm
-ld -0 calculator -m32 calculator.o
+ld -o calculator -melf_i386 calculator.o
 ```
 
 It uses 32-bit signed integers, lets you control the order of operations with parantheses and supports the following binary operations:
