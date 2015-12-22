@@ -15,13 +15,13 @@ ld -0 calculator -m32 calculator.o
 ```
 
 It uses 32-bit signed integers, lets you control the order of operations with parantheses and supports the following binary operations:
-*add: "+"
-*subtract: "-"
-*multiply: "*"
-*high word of multiplication: "**"
-*divide: "\"
-*modulo: "%" or "//"
-*exponent: "^"
-*bit-wise or: "|"
-*bit-wise and: "&"
-*bit-wise xor: "$xor"
+* add: "+"
+* subtract: "-"
+* multiply: "*"
+* high word of multiplication: "**"
+* divide: "/"
+* modulo: "%" or "//"
+* exponent: "^"
+* bit-wise or: "|"
+* bit-wise and: "&"
+* bit-wise xor: "$xor"
