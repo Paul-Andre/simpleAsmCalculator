@@ -10,7 +10,7 @@ ld -o calculator calculator.o
 
 For x64 linux, it should be something like the following, though I haven't tested it yet:
 ```bash
-nasm -felf64 calculator.asm
+nasm -felf32 calculator.asm
 ld -0 calculator -m32 calculator.o
 ```
 
