@@ -8,7 +8,7 @@ nasm -felf calculator.asm
 ld -o calculator calculator.o
 ```
 
-For x64 linux, it should be something like the following, though I haven't tested it yet:
+For x64 (arm64) linux:
 ```bash
 nasm -felf32 calculator.asm
 ld -o calculator -melf_i386 calculator.o
